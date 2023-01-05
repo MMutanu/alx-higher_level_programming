@@ -1,2 +1,4 @@
-#!/bin/bash
-python3.4 -m py_compile $PYFILE; mv __pycache__/*pyc $PYFILE'c'
+#!/usr/bin/python3
+import sys
+sys.stderr.write("and that piece of art is useful - Dora Korpar, 2015-10-19\n")
+sys.exit(1)
